@@ -1,0 +1,149 @@
+
+nav {
+    background-color:darkgreen;
+    overflow: hidden;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -10px;
+    height: 80px;
+  }
+  
+  nav h2 {
+    float: left;
+    color:aliceblue;
+    position: relative;
+    bottom: 40px;
+    left: 900px;
+    padding: 14px 16px;
+    font-size: 40px;
+  }
+  .TWO ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #111;
+}
+
+ .TWO li {
+  float: right;
+  margin-top: 6px;
+  list-style: none;
+  color: #111;
+  position: relative;
+  top: 5px;
+}
+.TWO{
+  background-color: white;
+}
+
+  .TWO li a {
+  display: block;
+  color:#111;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a{
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color:aliceblue;
+  position: relative;
+  bottom: 20px;
+
+}
+nav button {
+    width: 150px;
+    height: 48px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    background-color:yellow;
+    border-radius: 5PX;
+}
+button a{
+    text-decoration: none;
+}
+body{
+    max-width: 100%;
+    display: grid;
+}
+#myImage{
+  width: 400px;
+  height: 400px;
+  margin-top: 60px;
+  margin-left: 60px;
+padding-bottom: 40px;
+}
+.one {
+  width: 90%;
+  background-color:#111;
+  margin-top: 5px;
+  margin-left: 80px;
+}
+   h1{
+  margin-left: 780px;
+  color: aliceblue;
+  margin-bottom: 90PX;
+  position: relative;
+  bottom: 400px;
+  right: 200px;
+  border: 3px solid #73AD21;
+}
+#slide{
+  position: relative;
+  top: 200px;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+/* Facebook */
+.fa-facebook {
+  background: blue;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: darkblue;
+  color: darkred;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: #0077B5;
+  color: white;
+}
+.fa-github{
+  background-color: #0077B5;
+  color: white;
+}
+.fa-envelope{
+  color: white;
+  background-color:darkcyan;
+}
+.fa-phone{
+  size: 80px;
+  color: blue;
+  background-color: cornflowerblue;
+}
